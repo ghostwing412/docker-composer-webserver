@@ -50,7 +50,7 @@ services:
       environment:
        - TZ=Asia/Shanghai
     php:
-      image: ghostwing412/php:5.6.39-fpm-v4
+      image: ghostwing412/php:5.6.40-fpm-alpine3.8-v1
       container_name: php_fpm
       ports:
         - "9001:9000"
